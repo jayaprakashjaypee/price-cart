@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.card-list {
+  margin: 4rem 4rem 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-body {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 17rem;
+
+}
+
+.card-body:hover {
+  box-shadow: 0 0 1rem #ccc;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+.card-body > button {
+  background-color: #33AEFF;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+  border-radius: 10rem;
+  text-align: center;
+  color: white;
+  border: 0;
+}
+
+.card-body > button:hover {
+  background-color: #0062E6;
+  transition: all 0.3s;
+}
+
+.card-price {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.card-price > h1 {
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.card-price > h4 {
+  margin-bottom: 0.5rem;
+  color: grey;
+}
